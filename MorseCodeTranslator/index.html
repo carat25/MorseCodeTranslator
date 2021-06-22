@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morse Code Translator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="layout">
+      <header>
+        <h1>Morse Code Translator</h1>
+      </header>
+      <section class="container">
+        <div class="options">
+          <h4>Translate to</h4>
+          <input type="radio" id="morse" name="language" value="morse" />
+          <label for="morse">Morse</label><br />
+          <input type="radio" id="english" name="language" value="english" />
+          <label for="english">English</label><br />
+        </div>
+        <div class="result">
+          <div class="input">
+            <textarea
+              type="text"
+              id="input"
+              class="text-area"
+              style="resize: none"
+              placeholder="Enter Text"
+            ></textarea>
+          </div>
+
+          <div class="btn">
+            <button type="submit" id="submit" class="submit">Submit</button>
+            <button id="reset" class="reset">Reset</button>
+          </div>
+
+          <div class="output">
+            <textarea
+              type="text"
+              id="output"
+              rows="2"
+              columns="50"
+              class="text-area"
+              style="resize: none"
+              placeholder="Translation"
+              disabled
+            ></textarea>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="./dom.js"></script>
+    <script type="module" src="./functions.js"></script>
+  </body>
+</html>
