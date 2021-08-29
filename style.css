@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  margin-left: 300px;
+  background-image: radial-gradient(#41729F, #74BDCB, #274472);
+}
+
+.layout {
+  border: 1px solid grey;
+  padding-bottom: 50px;
+  width: 70%;
+  border-radius: 10px 10px;
+  background-color: #E7F2F8;
+  box-shadow: 0 4px 8px 0 #C3E0E5, 0 6px 20px 0 #C3E0E5;
+}
+
+header {
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.output {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.submit {
+  width: 100px;
+  border-radius: 10px 10px;
+  padding: 10px 10px;
+  background-color: #3278ff;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border: none;
+}
+
+.submit:hover {
+  background-color: #0f64d2;
+  cursor: pointer;
+}
+
+.reset {
+  width: 100px;
+  border-radius: 10px 10px;
+  padding: 10px 10px;
+  background-color: #78828c;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border: none;
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: #505a64;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+}
+
+.text-area {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+  border: none;
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */
