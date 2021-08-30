@@ -2,17 +2,16 @@ body {
   font-family: "Roboto", sans-serif;
   margin-top: 50px;
   margin-left: 300px;
-  background-image: radial-gradient(#41729F, #74BDCB, #274472);
+  background-image: radial-gradient(#7F8FA3, #FBF6F3);
 }
 
 .layout {
-  border: 1px solid grey;
+  border: 5px solid #7F8FA3;
   padding-bottom: 50px;
   width: 70%;
   border-radius: 10px 10px;
-  background-color: #E7F2F8;
-  // box-shadow: rgb(93, 147, 218, 0.6) 5px 5px 5px;
-  box-shadow: 0 4px 8px 0 #C3E0E5, 0 6px 20px 0 #C3E0E5;
+  background-color: #EAFBFF;
+  box-shadow: 0 4px 8px 0 #FFA0A3, 0 6px 20px 0 #05445E;
 }
 
 header {
