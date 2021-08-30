@@ -1,6 +1,8 @@
+
 # MorseCodeTranslator
 Morse code translator imbedded in HTML.
 
+![morsecode](https://user-images.githubusercontent.com/84700649/131290598-ba55178f-5ebd-43cc-b76d-e15eb4279088.png)
 
 # Table of Contents
 
